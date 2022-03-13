@@ -2,14 +2,14 @@ import "./styles/App.css";
 import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import productList from "./models/data.json";
-import ProductList from "./Components/ProductList";
-import Header from "./Components/Header";
+import ProductList from "./components/ProductList";
+import Header from "./components/Header";
 import About from "./pages/About";
-import Search from "./Components/Search";
-import BasketList from "./Components/BasketList";
-import BasketTotal from "./Components/BasketTotal";
-import BasketCount from "./Components/BasketCount";
-import Pagination from "./Components/Pagination";
+import Search from "./components/Search";
+import BasketList from "./components/BasketList";
+import BasketTotal from "./components/BasketTotal";
+import BasketCount from "./components/BasketCount";
+import Pagination from "./components/Pagination";
 
 function App() {
   const [products, setProducts] = useState(productList);
