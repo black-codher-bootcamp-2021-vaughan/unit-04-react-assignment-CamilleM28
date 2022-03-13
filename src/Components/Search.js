@@ -13,7 +13,7 @@ function Search(props) {
     <form onSubmit={handleSubmit} id="searchAPI">
       <input
         id="term"
-        class="search"
+        className="search"
         required
         type="search"
         value={props.keyword}
@@ -21,7 +21,7 @@ function Search(props) {
         onChange={(e) => setKeyword(e.target.value)}
       />
       <input
-        class="submitStyle"
+        className="submitStyle"
         type="submit"
         value="Search"
         onClick={() => props.setCurrentPage(1)}

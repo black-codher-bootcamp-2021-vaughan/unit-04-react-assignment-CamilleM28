@@ -16,7 +16,10 @@ const Product = (props) => {
       </p>
       <img src={props.product.artworkUrl100} alt="Media artwork" />
       <br />
-      <button class="button" onClick={() => props.addToBasket(props.product)}>
+      <button
+        className="button"
+        onClick={() => props.addToBasket(props.product)}
+      >
         Add to Basket
       </button>
     </div>

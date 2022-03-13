@@ -23,7 +23,7 @@ function Basket(props) {
       <img src={props.basketItem.artworkUrl100} alt="Media artwork" />
       <br />
       <button
-        class="button"
+        className="button"
         onClick={() => props.removeFromBasket(props.basketItem)}
       >
         Remove item
