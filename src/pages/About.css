@@ -1,0 +1,16 @@
+.about {
+  margin: 30px;
+  padding: 5px;
+}
+
+.welcome {
+  color: rgb(21, 66, 55);
+}
+
+.info {
+  color: rgb(15, 19, 17);
+}
+
+li {
+  list-style-position: inside;
+}

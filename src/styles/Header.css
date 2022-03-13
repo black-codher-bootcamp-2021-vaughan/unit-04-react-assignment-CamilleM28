@@ -1,0 +1,12 @@
+.styledHeader {
+  text-align: center;
+}
+
+.link,
+.productLink {
+  margin: 8px;
+  border: dotted 2px black;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
